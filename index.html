@@ -80,15 +80,15 @@ import { getAuth, GoogleAuthProvider, signInWithRedirect, getRedirectResult, onA
 import { getDatabase, ref, set, onValue }                         from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js';
 
 // ── FIREBASE CONFIG ──────────────────────────
-const app  = initializeApp({
-  apiKey:            "AIzaSyBpxoCdyU38Sq4-vK1A_W4atQ1AdvrhdoI",
-  authDomain:        "tradelog-42241.firebaseapp.com",
-  databaseURL:       "https://tradelog-42241-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId:         "tradelog-42241",
-  storageBucket:     "tradelog-42241.appspot.com",
-  messagingSenderId: "21674370077",
-  appId:             "1:21674370077:web:27860baa388c6713bb92f4"
-});
+const firebaseConfig = {
+  apiKey: "AIzaSyA6BM3REfPPxhbW_gRAxNbimmVx1A9ytW8",
+  authDomain: "scalping-log-b84d5.firebaseapp.com",
+  databaseURL: "https://scalping-log-b84d5-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "scalping-log-b84d5",
+  storageBucket: "scalping-log-b84d5.firebasestorage.app",
+  messagingSenderId: "516043057216",
+  appId: "1:516043057216:web:eb6f6b02c94b46039957a5"
+};
 const auth = getAuth(app);
 const db   = getDatabase(app);
 
