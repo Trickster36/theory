@@ -2,7 +2,7 @@
   "name": "Theory Tracker",
   "short_name": "Theories",
   "description": "Log observations and track what works",
-  "start_url": "/theory-tracker/",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#f0f2f5",
   "theme_color": "#1a2332",
