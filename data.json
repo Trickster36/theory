@@ -35,10 +35,14 @@
     {
       "id": 24,
       "name": "4H POI -> 15M CISD -> 15M IRL -> Retest"
+    },
+    {
+      "id": 25,
+      "name": "4H POI -> 15M MSS -> 15M IRL -> Retest"
     }
   ],
   "trades": [],
-  "stepIdCounter": 25,
-  "syncedAt": "2026-08-19T20:37:02.383Z",
+  "stepIdCounter": 26,
+  "syncedAt": "2026-08-19T20:37:26.430Z",
   "version": "1.0"
 }
