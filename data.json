@@ -23,10 +23,14 @@
     {
       "id": 14,
       "name": "15M IRL -> CRT + 1M TBS"
+    },
+    {
+      "id": 15,
+      "name": "15M IRL -> CRT + 1M CISD"
     }
   ],
   "trades": [],
-  "stepIdCounter": 15,
-  "syncedAt": "2026-08-19T20:13:02.469Z",
+  "stepIdCounter": 16,
+  "syncedAt": "2026-08-19T20:13:32.225Z",
   "version": "1.0"
 }
