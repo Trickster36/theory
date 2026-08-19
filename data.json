@@ -19,10 +19,14 @@
     {
       "id": 13,
       "name": "4H POI -> CRT + CISD"
+    },
+    {
+      "id": 14,
+      "name": "15M IRL -> CRT + 1M TBS"
     }
   ],
   "trades": [],
-  "stepIdCounter": 14,
-  "syncedAt": "2026-08-19T20:09:24.013Z",
+  "stepIdCounter": 15,
+  "syncedAt": "2026-08-19T20:13:02.469Z",
   "version": "1.0"
 }
