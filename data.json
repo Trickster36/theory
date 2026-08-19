@@ -1,0 +1,36 @@
+{
+  "steps": [
+    {
+      "id": 2,
+      "name": "Trend Direction Confirmation"
+    },
+    {
+      "id": 3,
+      "name": "Key Level Identification"
+    },
+    {
+      "id": 4,
+      "name": "Entry Signal Validation"
+    },
+    {
+      "id": 5,
+      "name": "Risk/Reward Ratio >= 1:2"
+    },
+    {
+      "id": 6,
+      "name": "Position Size <= 1% Risk"
+    },
+    {
+      "id": 7,
+      "name": "Stop Loss Placement"
+    },
+    {
+      "id": 8,
+      "name": "Trade Management (Breakeven/Trail)"
+    }
+  ],
+  "trades": [],
+  "stepIdCounter": 9,
+  "syncedAt": "2026-08-19T20:01:09.314Z",
+  "version": "1.0"
+}
