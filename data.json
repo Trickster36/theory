@@ -1,16 +1,12 @@
 {
   "steps": [
     {
-      "id": 7,
-      "name": "Stop Loss Placement"
-    },
-    {
       "id": 8,
-      "name": "Trade Management (Breakeven/Trail)"
+      "name": "ERL / IRL"
     }
   ],
   "trades": [],
   "stepIdCounter": 9,
-  "syncedAt": "2026-08-19T20:01:20.551Z",
+  "syncedAt": "2026-08-19T20:01:41.272Z",
   "version": "1.0"
 }
