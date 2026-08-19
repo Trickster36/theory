@@ -7,10 +7,14 @@
     {
       "id": 10,
       "name": "4H ERL / IRL"
+    },
+    {
+      "id": 11,
+      "name": "4H S/R Test"
     }
   ],
   "trades": [],
-  "stepIdCounter": 11,
-  "syncedAt": "2026-08-19T20:07:46.408Z",
+  "stepIdCounter": 12,
+  "syncedAt": "2026-08-19T20:08:17.698Z",
   "version": "1.0"
 }
