@@ -1,16 +1,16 @@
 {
   "steps": [
     {
-      "id": 15,
-      "name": "15M IRL -> CRT + 1M CISD"
-    },
-    {
       "id": 16,
       "name": "4H SB → Trend Continue"
+    },
+    {
+      "id": 17,
+      "name": "4H Swing Failure → Trend Reversal"
     }
   ],
   "trades": [],
-  "stepIdCounter": 17,
-  "syncedAt": "2026-08-19T20:28:32.467Z",
+  "stepIdCounter": 18,
+  "syncedAt": "2026-08-19T20:28:59.226Z",
   "version": "1.0"
 }
