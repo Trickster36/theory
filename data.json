@@ -3,10 +3,14 @@
     {
       "id": 8,
       "name": "ERL / IRL"
+    },
+    {
+      "id": 9,
+      "name": "4H Direction"
     }
   ],
   "trades": [],
-  "stepIdCounter": 9,
-  "syncedAt": "2026-08-19T20:04:34.054Z",
+  "stepIdCounter": 10,
+  "syncedAt": "2026-08-19T20:06:29.123Z",
   "version": "1.0"
 }
