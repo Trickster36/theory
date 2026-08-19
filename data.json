@@ -1,24 +1,16 @@
 {
   "steps": [
     {
-      "id": 12,
-      "name": "4H POI -> CRT + 15M TBS"
-    },
-    {
-      "id": 13,
-      "name": "4H POI -> CRT + 15M CISD"
-    },
-    {
-      "id": 14,
-      "name": "15M IRL -> CRT + 1M TBS"
-    },
-    {
       "id": 15,
       "name": "15M IRL -> CRT + 1M CISD"
+    },
+    {
+      "id": 16,
+      "name": "4H SB → Trend Continue"
     }
   ],
   "trades": [],
-  "stepIdCounter": 16,
-  "syncedAt": "2026-08-19T20:26:05.274Z",
+  "stepIdCounter": 17,
+  "syncedAt": "2026-08-19T20:28:32.467Z",
   "version": "1.0"
 }
