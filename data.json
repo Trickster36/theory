@@ -14,7 +14,7 @@
     },
     {
       "id": 12,
-      "name": "4H POI -> CRT + TBS"
+      "name": "4H POI -> CRT + 15M TBS"
     },
     {
       "id": 13,
@@ -31,6 +31,6 @@
   ],
   "trades": [],
   "stepIdCounter": 16,
-  "syncedAt": "2026-08-19T20:13:32.225Z",
+  "syncedAt": "2026-08-19T20:14:30.646Z",
   "version": "1.0"
 }
