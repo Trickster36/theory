@@ -15,10 +15,14 @@
     {
       "id": 19,
       "name": "4H ERL  ? → IRL / 4H IRL  ? → ERL"
+    },
+    {
+      "id": 20,
+      "name": "S/R Test -> Body Closed ? → Continue direction"
     }
   ],
   "trades": [],
-  "stepIdCounter": 20,
-  "syncedAt": "2026-08-19T20:31:45.023Z",
+  "stepIdCounter": 21,
+  "syncedAt": "2026-08-19T20:32:34.650Z",
   "version": "1.0"
 }
