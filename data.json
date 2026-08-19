@@ -11,10 +11,14 @@
     {
       "id": 11,
       "name": "4H S/R Test"
+    },
+    {
+      "id": 12,
+      "name": "4H POI -> CRT + TBS"
     }
   ],
   "trades": [],
-  "stepIdCounter": 12,
-  "syncedAt": "2026-08-19T20:08:17.698Z",
+  "stepIdCounter": 13,
+  "syncedAt": "2026-08-19T20:09:16.879Z",
   "version": "1.0"
 }
