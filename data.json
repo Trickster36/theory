@@ -1,16 +1,12 @@
 {
   "steps": [
     {
-      "id": 8,
-      "name": "ERL / IRL"
-    },
-    {
       "id": 9,
-      "name": "4H Direction"
+      "name": "4H Structure"
     }
   ],
   "trades": [],
   "stepIdCounter": 10,
-  "syncedAt": "2026-08-19T20:06:29.123Z",
+  "syncedAt": "2026-08-19T20:07:23.835Z",
   "version": "1.0"
 }
