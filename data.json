@@ -1,14 +1,6 @@
 {
   "steps": [
     {
-      "id": 5,
-      "name": "Risk/Reward Ratio >= 1:2"
-    },
-    {
-      "id": 6,
-      "name": "Position Size <= 1% Risk"
-    },
-    {
       "id": 7,
       "name": "Stop Loss Placement"
     },
@@ -19,6 +11,6 @@
   ],
   "trades": [],
   "stepIdCounter": 9,
-  "syncedAt": "2026-08-19T20:01:19.418Z",
+  "syncedAt": "2026-08-19T20:01:20.551Z",
   "version": "1.0"
 }
