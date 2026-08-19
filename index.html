@@ -609,7 +609,7 @@
         let charts = {};
         let githubConfig = null;
         let isSyncing = false;
-        let cachedSHA = null;  // cached after each commit to avoid double-fetching
+        let cachedSHA = null;
         let deferredPrompt = null;
         let pendingImages = []; // Base64 images waiting to be saved with next trade
 
@@ -815,25 +815,23 @@
 
         async function commitToGitHub(message) {
             if (!githubConfig) { showToast('Configure GitHub first', 'error'); return false; }
-            if (isSyncing) return false; // silently skip, don't toast
+            if (isSyncing) return false;
             isSyncing = true;
             updateSyncUI('syncing', 'Syncing to GitHub...');
             try {
-                // If we don't have a cached SHA, fetch it once
                 if (!cachedSHA) {
                     const shaRes = await fetch(
                         'https://api.github.com/repos/' + githubConfig.repoOwner + '/' + githubConfig.repoName + '/contents/data.json?ref=' + githubConfig.branch,
                         { headers: { 'Authorization': 'token ' + githubConfig.token, 'Accept': 'application/vnd.github.v3+json' } }
                     );
                     if (shaRes.ok) { const d = await shaRes.json(); cachedSHA = d.sha; }
-                    // 404 means file doesn't exist yet — that's fine, we'll create it
                 }
                 const content = btoa(unescape(encodeURIComponent(JSON.stringify({
                     steps, trades, stepIdCounter,
                     syncedAt: new Date().toISOString(),
                     version: '1.0'
                 }, null, 2))));
-                const body = { message: message || 'Update trading data', content, branch: githubConfig.branch };
+                const body = { message: message || 'Update trading data', content: content, branch: githubConfig.branch };
                 if (cachedSHA) body.sha = cachedSHA;
                 const res = await fetch(
                     'https://api.github.com/repos/' + githubConfig.repoOwner + '/' + githubConfig.repoName + '/contents/data.json',
@@ -841,13 +839,12 @@
                 );
                 if (res.ok) {
                     const result = await res.json();
-                    cachedSHA = result.content.sha; // cache new SHA immediately
+                    cachedSHA = result.content.sha;
                     updateSyncUI('synced', 'Last sync: ' + new Date().toLocaleTimeString());
                     showToast('Synced to GitHub!', 'success');
                     isSyncing = false; return true;
                 } else {
                     const err = await res.json();
-                    // 409 conflict = SHA mismatch, clear cache and retry once
                     if (res.status === 409) {
                         cachedSHA = null;
                         isSyncing = false;
@@ -880,7 +877,6 @@
         // ===================== DATA LOADING =====================
         async function loadFromJson() {
             if (githubConfig) {
-                // Load from GitHub API using token (works for both public and private repos)
                 try {
                     updateSyncUI('syncing', 'Loading from GitHub...');
                     const res = await fetch(
@@ -889,7 +885,7 @@
                     );
                     if (res.ok) {
                         const file = await res.json();
-                        cachedSHA = file.sha; // cache SHA right away
+                        cachedSHA = file.sha;
                         const data = JSON.parse(atob(file.content.split('\n').join('')));
                         if (data.steps && Array.isArray(data.steps)) steps = data.steps;
                         if (data.trades && Array.isArray(data.trades)) trades = data.trades;
@@ -897,10 +893,9 @@
                         updateSyncUI('synced', 'Loaded from GitHub');
                         showToast('Loaded ' + trades.length + ' trades from GitHub', 'success');
                     } else if (res.status === 404) {
-                        // data.json doesn't exist yet — start fresh, first save will create it
                         steps = JSON.parse(JSON.stringify(defaultSteps));
                         stepIdCounter = 9; trades = [];
-                        updateSyncUI('synced', 'Auto-sync ON — ready to save');
+                        updateSyncUI('synced', 'Ready — no data yet');
                         showToast('No data yet — start logging trades!', 'info');
                     } else {
                         const err = await res.json();
@@ -913,7 +908,6 @@
                     showToast('Load failed: ' + err.message, 'error');
                 }
             } else {
-                // No GitHub config — try plain fetch as fallback
                 try {
                     const res = await fetch('data.json?v=' + Date.now());
                     if (!res.ok) throw new Error('No data.json');
