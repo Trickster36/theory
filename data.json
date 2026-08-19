@@ -11,10 +11,14 @@
     {
       "id": 18,
       "name": "4H CRT → 4H IRL Retest"
+    },
+    {
+      "id": 19,
+      "name": "4H ERL  ? → IRL / 4H IRL  ? → ERL"
     }
   ],
   "trades": [],
-  "stepIdCounter": 19,
-  "syncedAt": "2026-08-19T20:30:26.865Z",
+  "stepIdCounter": 20,
+  "syncedAt": "2026-08-19T20:31:45.023Z",
   "version": "1.0"
 }
