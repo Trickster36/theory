@@ -1,16 +1,12 @@
 {
   "steps": [
     {
-      "id": 25,
-      "name": "4H POI -> 15M MSS -> 15M IRL -> Retest"
-    },
-    {
       "id": 26,
-      "name": "4H POI -> CRT + 15M TBS + 15M CISD"
+      "name": "4H S/R"
     }
   ],
   "trades": [],
   "stepIdCounter": 27,
-  "syncedAt": "2026-08-20T05:41:11.256Z",
+  "syncedAt": "2026-08-20T05:42:14.312Z",
   "version": "1.0"
 }
