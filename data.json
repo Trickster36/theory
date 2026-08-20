@@ -11,10 +11,14 @@
     {
       "id": 28,
       "name": "15M CRT → 1M TBS + CISD"
+    },
+    {
+      "id": 29,
+      "name": "15M ERL -> 1M MSS -> 3M IRL Retest"
     }
   ],
   "trades": [],
-  "stepIdCounter": 29,
-  "syncedAt": "2026-08-20T05:43:35.832Z",
+  "stepIdCounter": 30,
+  "syncedAt": "2026-08-20T05:44:19.498Z",
   "version": "1.0"
 }
