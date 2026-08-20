@@ -6,7 +6,7 @@
     },
     {
       "id": 17,
-      "name": "4H Swing Failure â Trend Reversal"
+      "name": "4H Swing Failure == Trend Reversal"
     },
     {
       "id": 18,
@@ -43,6 +43,6 @@
   ],
   "trades": [],
   "stepIdCounter": 26,
-  "syncedAt": "2026-08-20T04:26:56.756Z",
+  "syncedAt": "2026-08-20T04:27:08.576Z",
   "version": "1.0"
 }
