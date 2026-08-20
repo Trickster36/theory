@@ -22,7 +22,7 @@
     },
     {
       "id": 21,
-      "name": "S/R Test -> Failed ? â Test Opposite HTF Level"
+      "name": "S/R Test -> Failed ? == Test Opposite HTF Level"
     },
     {
       "id": 22,
@@ -43,6 +43,6 @@
   ],
   "trades": [],
   "stepIdCounter": 26,
-  "syncedAt": "2026-08-20T04:27:51.888Z",
+  "syncedAt": "2026-08-20T04:28:06.828Z",
   "version": "1.0"
 }
