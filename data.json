@@ -2,27 +2,27 @@
   "steps": [
     {
       "id": 16,
-      "name": "4H SB → Trend Continue"
+      "name": "4H SB == Trend Continue"
     },
     {
       "id": 17,
-      "name": "4H Swing Failure → Trend Reversal"
+      "name": "4H Swing Failure â Trend Reversal"
     },
     {
       "id": 18,
-      "name": "4H CRT → 4H IRL Retest"
+      "name": "4H CRT â 4H IRL Retest"
     },
     {
       "id": 19,
-      "name": "4H ERL  ? → IRL / 4H IRL  ? → ERL"
+      "name": "4H ERL  ? â IRL / 4H IRL  ? â ERL"
     },
     {
       "id": 20,
-      "name": "S/R Test -> Body Closed ? → Continue direction"
+      "name": "S/R Test -> Body Closed ? â Continue direction"
     },
     {
       "id": 21,
-      "name": "S/R Test -> Failed ? → Test Opposite HTF Level"
+      "name": "S/R Test -> Failed ? â Test Opposite HTF Level"
     },
     {
       "id": 22,
@@ -43,6 +43,6 @@
   ],
   "trades": [],
   "stepIdCounter": 26,
-  "syncedAt": "2026-08-19T20:37:26.430Z",
+  "syncedAt": "2026-08-20T04:26:56.756Z",
   "version": "1.0"
 }
