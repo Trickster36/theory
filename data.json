@@ -18,7 +18,7 @@
     },
     {
       "id": 20,
-      "name": "S/R Test -> Body Closed ? â Continue direction"
+      "name": "S/R Test -> Body Closed == Continue direction"
     },
     {
       "id": 21,
@@ -43,6 +43,6 @@
   ],
   "trades": [],
   "stepIdCounter": 26,
-  "syncedAt": "2026-08-20T04:27:39.747Z",
+  "syncedAt": "2026-08-20T04:27:51.888Z",
   "version": "1.0"
 }
