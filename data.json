@@ -3,10 +3,14 @@
     {
       "id": 26,
       "name": "4H S/R"
+    },
+    {
+      "id": 27,
+      "name": "4H CRT → 15M TBS + CISD"
     }
   ],
   "trades": [],
-  "stepIdCounter": 27,
-  "syncedAt": "2026-08-20T05:42:14.312Z",
+  "stepIdCounter": 28,
+  "syncedAt": "2026-08-20T05:42:46.651Z",
   "version": "1.0"
 }
