@@ -7,10 +7,14 @@
     {
       "id": 27,
       "name": "4H CRT → 15M TBS + CISD"
+    },
+    {
+      "id": 28,
+      "name": "15M CRT → 1M TBS + CISD"
     }
   ],
   "trades": [],
-  "stepIdCounter": 28,
-  "syncedAt": "2026-08-20T05:42:46.651Z",
+  "stepIdCounter": 29,
+  "syncedAt": "2026-08-20T05:43:35.832Z",
   "version": "1.0"
 }
