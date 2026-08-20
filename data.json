@@ -14,7 +14,7 @@
     },
     {
       "id": 19,
-      "name": "4H ERL  ? â IRL / 4H IRL  ? â ERL"
+      "name": "4H ERL to IRL / 4H IRL to ERL"
     },
     {
       "id": 20,
@@ -43,6 +43,6 @@
   ],
   "trades": [],
   "stepIdCounter": 26,
-  "syncedAt": "2026-08-20T04:27:17.027Z",
+  "syncedAt": "2026-08-20T04:27:39.747Z",
   "version": "1.0"
 }
