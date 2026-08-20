@@ -1,10 +1,6 @@
 {
   "steps": [
     {
-      "id": 20,
-      "name": "S/R Body Closed == Continue direction"
-    },
-    {
       "id": 21,
       "name": "S/R Failed == Test Opposite HTF Level"
     },
@@ -31,6 +27,6 @@
   ],
   "trades": [],
   "stepIdCounter": 27,
-  "syncedAt": "2026-08-20T04:41:51.228Z",
+  "syncedAt": "2026-08-20T05:41:08.670Z",
   "version": "1.0"
 }
