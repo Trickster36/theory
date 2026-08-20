@@ -10,7 +10,7 @@
     },
     {
       "id": 18,
-      "name": "4H CRT â 4H IRL Retest"
+      "name": "4H CRT == 4H IRL Retest"
     },
     {
       "id": 19,
@@ -43,6 +43,6 @@
   ],
   "trades": [],
   "stepIdCounter": 26,
-  "syncedAt": "2026-08-20T04:27:08.576Z",
+  "syncedAt": "2026-08-20T04:27:17.027Z",
   "version": "1.0"
 }
