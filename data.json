@@ -1,10 +1,6 @@
 {
   "steps": [
     {
-      "id": 16,
-      "name": "4H SB == Trend Continue"
-    },
-    {
       "id": 17,
       "name": "4H Swing Failure == Trend Reversal"
     },
@@ -43,6 +39,6 @@
   ],
   "trades": [],
   "stepIdCounter": 26,
-  "syncedAt": "2026-08-20T04:28:06.828Z",
+  "syncedAt": "2026-08-20T04:39:09.067Z",
   "version": "1.0"
 }
