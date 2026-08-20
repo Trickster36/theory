@@ -1,10 +1,6 @@
 {
   "steps": [
     {
-      "id": 19,
-      "name": "4H ERL to IRL / 4H IRL to ERL"
-    },
-    {
       "id": 20,
       "name": "S/R Test -> Body Closed == Continue direction"
     },
@@ -31,6 +27,6 @@
   ],
   "trades": [],
   "stepIdCounter": 26,
-  "syncedAt": "2026-08-20T04:39:32.338Z",
+  "syncedAt": "2026-08-20T04:39:34.658Z",
   "version": "1.0"
 }
