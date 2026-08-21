@@ -14,11 +14,11 @@
     },
     {
       "id": 29,
-      "name": "15M ERL -> 1M MSS -> 3M IRL Retest"
+      "name": "15M ERL:  1M MSS + 3M IRL Retest"
     }
   ],
   "trades": [],
   "stepIdCounter": 30,
-  "syncedAt": "2026-08-21T03:43:15.683Z",
+  "syncedAt": "2026-08-21T03:43:41.034Z",
   "version": "1.0"
 }
